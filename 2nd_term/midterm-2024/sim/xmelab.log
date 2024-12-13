@@ -1,0 +1,33 @@
+xmelab(64): 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmelab(64)	23.03-s013: Started on Oct 25, 2024 at 10:22:14 KST
+xmelab
+    -MESS
+    -access rwc
+    tb_sn54ls32
+
+	Elaborating the design hierarchy:
+		Caching library 'SN54LS32_lib' ....... Done
+SN54LS32 DUT(
+           |
+xmelab: *W,CUVWSP (../src/tb_sn54ls32.v,10|11): 1 output port was not connected:
+xmelab: (../src/SN54LS32.v,7): o_4Y
+
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		SN54LS32_lib.SN54LS32:module <0x77f9b82a>
+			streams:   0, words:     0
+		SN54LS32_lib.tb_sn54ls32:module <0x3d656f13>
+			streams:   9, words:  4289
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                 Instances  Unique
+		Modules:                 2       2
+		Registers:               8       8
+		Scalar wires:           13       -
+		Initial blocks:          1       1
+		Cont. assignments:       0       4
+		Pseudo assignments:      8       -
+		Simulation timescale:  1ps
+	Writing initial simulation snapshot: SN54LS32_lib.tb_sn54ls32:module
+TOOL:	xmelab(64)	23.03-s013: Exiting on Oct 25, 2024 at 10:22:14 KST  (total: 00:00:00)

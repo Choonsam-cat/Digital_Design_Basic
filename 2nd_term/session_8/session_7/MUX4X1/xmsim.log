@@ -1,0 +1,16 @@
+xmsim(64): 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+TOOL:	xmsim(64)	23.03-s013: Started on Oct 04, 2024 at 13:53:49 KST
+xmsim
+    -MESS
+    tb_MUX4X1
+
+Loading snapshot MUX_lib.tb_MUX4X1:module .................... Done
+xcelium> run
+$time=10 ns sel1 = 0 sel0 = 0 in0 = 1 in1 = 0 in2 = 0 in3 = 0out = 1
+$time=20 ns sel1 = 0 sel0 = 1 in0 = 0 in1 = 1 in2 = 0 in3 = 0out = 1
+$time=30 ns sel1 = 1 sel0 = 0 in0 = 0 in1 = 0 in2 = 1 in3 = 0out = 1
+$time=40 ns sel1 = 1 sel0 = 1 in0 = 0 in1 = 0 in2 = 0 in3 = 1out = 1
+Simulation complete via $finish(1) at time 40 NS + 0
+./tb_MUX4X1.v:52 	$finish;
+xcelium> exit
+TOOL:	xmsim(64)	23.03-s013: Exiting on Oct 04, 2024 at 13:53:50 KST  (total: 00:00:01)

@@ -1,0 +1,9 @@
+xmsim(64): 23.03-s013: (c) Copyright 1995-2024 Cadence Design Systems, Inc.
+xcelium> run
+$time=10 ns sel1 = 0 sel0 = 0 in0 = 1 in1 = 0 in2 = 0 in3 = 0out = 1
+$time=20 ns sel1 = 0 sel0 = 1 in0 = 0 in1 = 1 in2 = 0 in3 = 0out = 1
+$time=30 ns sel1 = 1 sel0 = 0 in0 = 0 in1 = 0 in2 = 1 in3 = 0out = 1
+$time=40 ns sel1 = 1 sel0 = 1 in0 = 0 in1 = 0 in2 = 0 in3 = 1out = 1
+Simulation complete via $finish(1) at time 40 NS + 0
+./tb_MUX4X1.v:52 	$finish;
+xcelium> exit
